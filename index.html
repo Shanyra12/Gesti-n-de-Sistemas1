@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creación de pagina personal</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #87e4b7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        #inicio {
+            background-color: #f262a5e8;
+            /* Verde */
+        }
+
+        #bibliografia {
+            background-color: #58ddf2;
+            /* Cian */
+        }
+
+        #habilidades {
+            background-color: #bc96ea;
+            /* Amarillo */
+            color: #333;
+            /* Texto oscuro para contraste */
+        }
+
+        #proyectos {
+            background-color: #d7a7ac;
+            /* Rojo */
+        }
+
+        #consulta {
+            background-color: #6f42c1;
+            /* Púrpura */
+        }
+
+        h2 {
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ruth Shanyra Blanco Lupaca</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#bibliografia">Bibliografía</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#consulta">Consulta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido a mi página personal sobre voley</p>
+            <img src="depositphotos_61862031-stock-illustration-volleyball-ball.jpg" alt="Pasión por el voley"
+                style="max-width: 100%; height: auto;">
+            <iframe width="914" height="514" src="https://www.youtube.com/embed/o5obzbQnl1M"
+                title="BIENVENIDA INTRO TIPO PELICULA HD" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="bibliografia">
+            <h2>Bibliografía</h2>
+            <p>[Aquí puedes agregar una breve biografía sobre ti, tus estudios, experiencia laboral, etc.]</p>
+        </section>
+
+        <video width="640" height=360 controls>
+            <source src="mi-video.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Mirar el video para tener un poco del voley real, en un anime.
+            </ul>
+
+            <iframe width="685" height="514" src="https://www.youtube.com/embed/WkGqNMoysF4"
+                title="Voley Peruano en anime (Español) HD" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <p>[Puedes describir aquí algunos proyectos en los que has trabajado en voley, con enlaces si es posible.]
+            </p>
+        </section>
+
+        <a href="Email:shanyrablanco@gmail.com">
+            <img src="facebook.png" alt="Contactar" style="max-width: 100%; height: auto;">
+            <li> Teléfono: 930995619
+            <li>
+            </li> Facebook: Shanyra Blanco Lupaca </li>
+        </a>
+
+        <section id="consulta">
+            <h2>Consulta de Preguntas</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre: juegas algún deporte</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="pregunta">Pregunta:</label>
+                <textarea id="pregunta" name="pregunta" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <iframe width="914" height="514" src="https://www.youtube.com/embed/7VUTvR1DDoI"
+                title="Gracias por su atencion" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Página Personal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
